@@ -94,6 +94,7 @@ calculateSaving.addEventListener('click', function () {
         savingResult += (incomeAmount / 100) * savingRate;
         savingError.style.display = 'none';
     }
+
     // Show Saving Amount Output
     if (currentBalance >= savingResult && savingResult >= 0) {
         savingAmount.innerText = savingResult;
