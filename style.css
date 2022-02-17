@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+  --primary-color: #31A5AC;
+  --secondary-color: #F8F8F8;
+  --third-color: #16a085;
+  --theme-color: #2c3e50;
+
+}
+
+body {
+    color: #333333;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    padding-bottom: 30px;
+}
+
+.color-bg{
+background-color: gray;
+}
+.color-text {
+    color:var(--primary-color);
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+
+label {
+    color: var( --theme-color);
+    font-weight: 700;
+    text-align: left;
+}
+.income-card {
+    background: var(--primary-color);
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.form-control {
+    font-weight: 400;
+    border-radius: 0;
+    min-height: 42px;
+}
+
+.form-control:focus {
+    color: var(--third-color);
+    background-color: #ffff;
+    border-color: #8b70ff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #200a0a;
+    font-weight: 400;
+}
+
+.right-img {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    
+}
+
+.button-stl{
+    color: #ffffff;
+    padding: 8px 34px;
+    background: #8b70ff;
+    border-radius: 0;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+.button-stl:hover {
+    background: gray;
+}
+.button-stl:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.alert {
+    position: relative;
+    padding: 0.5rem;
+    color: var(--theme-color);
+    border: 1px solid transparent;
+    border-radius: 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+    display: none;
+}
+
